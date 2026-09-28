@@ -1,0 +1,25 @@
+Student Name: Samson Baraka Otieno
+Problem: Check and pack the required minimum number of notebooks and pens into the bag before leaving for campus.
+Input: 4 notebooks and 2 pens available on the desk, plus an empty bag.
+Output: All 4 notebooks packed and 2 pens secured inside the bag, ready for departure.
+Edge Case Handled: If fewer than 4 notebooks or 2 pens are found on the desk, prompt the user to locate missing supplies from the shelf before proceeding.
+Pseudocode:
+START
+  1. Open the bag compartment.
+  2. Count the available notebooks on the desk.
+  3. IF notebook count < 4 THEN
+       Retrieve missing notebooks from the study shelf.
+     ELSE
+       Proceed to pack notebooks.
+     ENDIF
+  4. Place all 4 notebooks into the bag.
+  5. Count the available pens on the desk.
+  6. IF pen count < 2 THEN
+       Retrieve an extra pen from the desk drawer.
+     ELSE
+       Proceed to pack pens.
+     ENDIF
+  7. Secure 2 pens inside the pen holder pocket.
+  8. Zip the bag completely.
+END
+Why this is clear enough to follow: This process breaks down packing into logical, sequential actions that anyone or any automated system can execute without ambiguity. The inclusion of explicit conditional statements ensures that missing items are handled gracefully rather than causing the process to fail. Each step uses precise verbs like count, retrieve, and place, leaving no room for guesswork.
