@@ -1,0 +1,34 @@
+
+Student Name: Samson Baraka
+
+Problem:
+Check and pack the required minimum number of notebooks and pens into the bag before leaving for campus.
+
+Input:
+4 notebooks and 2 pens available on the desk, plus an empty bag.
+
+Output:
+All 4 notebooks packed and 2 pens secured inside the bag, ready for departure.
+
+Edge Case Handled:
+If fewer than 4 notebooks or 2 pens are found on the desk, prompt the user to locate missing supplies from the shelf before proceeding.
+Pseudocode:
+START
+1. Open the bag
+2. Count and Read all notebooks 
+3. IF notebook < 4 THEN
+	Retrieve and find the missing notebooks from the book shelf
+   ELSE
+	Proceed to pack for pencils
+END IF
+4. Place all 4 notebooks into the main compartment of the bag.
+5. Count the available pens on the desk.
+6. IF pen count < 2 THEN
+       Retrieve an extra pen from the desk drawer.
+     ELSE
+       Proceed to pack pens.
+     ENDIF
+7. Secure 2 pens inside the pen holder pocket.
+8. Zip the bag completely.
+Why this is clear enough to follow:
+It clearly depicts the starting point and ending point of the program.All the input and output variables are well defined and the conditional statements are accurately shown. This pseudocode illustration provides the draft-like explanation of the program's function without necessarily using the standard programming language hence it allows the programmer to rectify, edit and change necessary information.
