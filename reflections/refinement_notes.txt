@@ -1,0 +1,4 @@
+Student Name: Samson Baraka Otieno
+Which phrases were too vague: Phrases like "Check them", "Find who failed", and "Show result" were too vague because they do not specify how the checking is done, what condition defines a failure, or how the final output should be formatted.
+How I made each vague part specific: I replaced "Check them" and "Find who failed" with an explicit loop that evaluates each individual score against a precise numeric threshold (score < 50). I made "Show result" specific by handling both cases: printing the collected list of failing scores or printing a clear message stating "No one failed" if the list is empty.
+Why refinement matters before coding: Refinement matters because vague instructions leave room for misinterpretation, making it difficult to write correct syntax or account for edge cases. Clear pseudocode acts as an unambiguous blueprint that ensures the developer or computer executes the logic exactly as intended.
