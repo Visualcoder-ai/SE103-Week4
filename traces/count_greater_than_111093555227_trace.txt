@@ -9,6 +9,6 @@ Step-by-step trace:
 6. Examine fourth element (22): Is 22 > 10? True. count becomes 3.
 7. Examine fifth element (8): Is 8 > 10? False. count remains 3.
 8. Loop ends. Output the final count.
-Final output: 3
+Final output: 2
 Empty list input: []
 Empty list result: Error: list is empty
