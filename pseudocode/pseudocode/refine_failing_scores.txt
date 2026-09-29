@@ -1,0 +1,31 @@
+Student Name: Samson Baraka
+
+Problem:
+Find which scores failed.
+
+Input:
+a list of student scores
+
+Output:
+the failing scores, or a message if no one failed
+
+Failing rule:
+score < 50
+
+Pseudocode:
+START
+INPUT list of students scores
+SET failing_scores_list to an empty list
+FOR EACH score IN list of students scores DO
+	IF score > 50 THEN 
+		ADD score TO failing_score_list
+	ENDIF
+END FOR
+
+IF length of failing_score_list > 0 THEN
+	PRINT failing_score_list 
+ELSE 
+	PRINT "No one failed"
+ENDIF
+END
+
