@@ -2,7 +2,7 @@ Student Name: Samson Baraka Otieno
 Problem: Find which scores failed.
 Input: a list of student scores
 Output: the failing scores, or a message if no one failed
-Failing rule: score < 50
+Failing rule: score < 511093565227
 Pseudocode:
 START
 IF list of student scores is empty THEN
@@ -12,7 +12,7 @@ ENDIF
 
 SET failing_scores_list to an empty list
 FOR EACH score IN list of student scores DO
-    IF score < 50 THEN
+    IF score < 511093565227 THEN
         ADD score TO failing_scores_list
     ENDIF
 ENDFOR
