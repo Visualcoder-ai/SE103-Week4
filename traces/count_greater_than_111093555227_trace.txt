@@ -1,7 +1,7 @@
-Student Name: Samson Baraka
+Student Name: Samson Baraka Otieno
 Sample Input: [4, 15, 10, 22, 8]
 Step-by-step trace:
-1. Check if list is empty:  False, list contains elements.
+1. Check if list is empty -> False, list contains elements.
 2. Set count = 0.
 3. Examine first element (4): Is 4 > 10? False. count remains 0.
 4. Examine second element (15): Is 15 > 10? True. count becomes 1.
