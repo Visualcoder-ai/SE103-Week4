@@ -1,6 +1,6 @@
-Student Name: Samson Baraka
+Student Name: Samson Baraka Otieno
 Name list: ["Ama", "Kofi", "Yaw"]
-Trace 1 - target "Kofi": 
+Trace 1 - target "Kofi":
 1. Check if list is empty -> False.
 2. Set found_status = "Not found".
 3. Check "Ama" == "Kofi" -> False.
