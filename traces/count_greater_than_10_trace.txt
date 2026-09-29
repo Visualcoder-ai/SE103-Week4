@@ -1,0 +1,14 @@
+Student Name: Samson Baraka
+Sample Input: [4, 15, 10, 22, 8]
+Step-by-step trace:
+1. Check if list is empty:  False, list contains elements.
+2. Set count = 0.
+3. Examine first element (4): Is 4 > 10? False. count remains 0.
+4. Examine second element (15): Is 15 > 10? True. count becomes 1.
+5. Examine third element (10): Is 10 > 10? False (not strictly greater). count remains 1.
+6. Examine fourth element (22): Is 22 > 10? True. count becomes 2.
+7. Examine fifth element (8): Is 8 > 10? False. count remains 2.
+8. Loop ends. Output the final count.
+Final output: 2
+Empty list input: []
+Empty list result: Error: list is empty
