@@ -1,0 +1,8 @@
+Student Name: Samson Baraka Otieno
+GitHub Username: SamsonOtieno
+Repository: SE103-Week4
+Repository URL: https://github.com/SamsonOtieno/SE103-Week4
+What I understand better about algorithms now: Breaking complex requirements down into precise structural steps ensures that execution runs seamlessly without hidden ambiguities. I now appreciate how crucial precise variable definitions and state tracking are before writing any production code. Tracing every single conditional branch helps uncover edge cases that would otherwise turn into runtime bugs. Ultimately, structured logic serves as a reliable bridge between human intent and computer execution.
+How tracing changed my confidence: Tracing code line-by-line manually gave me a completely transparent view of how state shifts during execution loops. It removed the fear of the unknown by proving that logic can be mathematically verified before compilation. Knowing how to systematically step through lists and empty states makes debugging feel methodical rather than random. This practice has significantly strengthened my assurance in designing fault-tolerant systems.
+One pseudocode habit I will keep: Always checking for empty input lists and edge cases right at the start of the algorithm before any loop execution begins.
+All required files are on main: Yes
