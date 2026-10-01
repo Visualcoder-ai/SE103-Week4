@@ -1,18 +1,19 @@
-Student Name: Samson Baraka Otieno
+Student Name: Samson Baraka
 Name list: ["Ama", "Kofi", "Yaw"]
 Trace 1 - target "Kofi":
-1. Check if list is empty -> False.
-2. Set found_status = "Not found".
-3. Check "Ama" == "Kofi" -> False.
-4. Check "Kofi" == "Kofi" -> True, set found_status = "Found".
-5. Check "Yaw" == "Kofi" -> False.
+1. Check if list is empty (it is not)
+2. Set found = FALSE
+3. Check "Ama" (no match)
+4. Check "Kofi" (match found, set found = TRUE, BREAK)
+5. Check found flag (is TRUE, output "Found")
 Result: Found
 Trace 2 - target "Efua":
-1. Check if list is empty -> False.
-2. Set found_status = "Not found".
-3. Check "Ama" == "Efua" -> False.
-4. Check "Kofi" == "Efua" -> False.
-5. Check "Yaw" == "Efua" -> False.
+1. Check if list is empty (it is not)
+2. Set found = FALSE
+3. Check "Ama" (no match)
+4. Check "Kofi" (no match)
+5. Check "Yaw" (no match)
+6. Check found flag (is FALSE, output "Not found")
 Result: Not found
 Empty list input: []
 Empty list result: Error: list is empty

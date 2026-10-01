@@ -1,24 +1,27 @@
-Student Name: Samson Baraka Otieno
+Student Name: Samson Baraka
 Problem: Search a list of names for one target name and report whether it was found.
-Input: 
+Input:
 - a list of names
 - one target name
-Output: 
+Output:
 - "Found" or "Not found"
 - or an error if the list is empty
 Pseudocode:
 START
-IF list is empty THEN
+  IF list is empty THEN
     PRINT "Error: list is empty"
-    STOP
-ENDIF
-
-SET found_status TO "Not found"
-FOR EACH name IN list DO
-    IF name == target name THEN
-        SET found_status TO "Found"
-    ENDIF
-ENDFOR
-
-PRINT found_status
+  ELSE
+    SET found = FALSE
+    FOR each name IN list
+      IF name == target THEN
+        SET found = TRUE
+        BREAK
+      END IF
+    END FOR
+    IF found == TRUE THEN
+      PRINT "Found"
+    ELSE
+      PRINT "Not found"
+    END IF
+  END IF
 END
