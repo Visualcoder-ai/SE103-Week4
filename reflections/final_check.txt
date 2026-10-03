@@ -6,3 +6,5 @@ What a pull request asks teammates to do: A pull request asks teammates to revie
 Why branches and pull requests are used together: Branches provide an isolated workspace to develop features safely, while pull requests provide a structured platform to inspect, discuss, and merge those branches securely into the main codebase. Together, they ensure code quality and team synchronization.
 One thing that confused me in this project and how I solved it: Managing branch tracking references initially caused slight ambiguity when pushing new branches. I resolved this by utilizing git push -u origin <branch-name> to explicitly establish upstream tracking links between my local and remote branches.
 All required files are on main: Yes
+
+
