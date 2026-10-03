@@ -1,0 +1,7 @@
+Student Name: Samson Baraka Otieno
+GitHub Username: Visualcoder-ai
+Authentication method I used: PAT
+Why I chose this method: A Personal Access Token provides a secure, token-based alternative to account passwords when interacting with GitHub via HTTPS. It allows me to scope specific permissions and expiration dates for the token, ensuring tighter security controls. Additionally, it integrates seamlessly with standard command-line Git operations without requiring complex SSH key setup.
+One security habit I must follow with this method: I must treat my Personal Access Token like a password by never hardcoding it into public source code repositories or sharing it publicly. I should also periodically regenerate and rotate tokens, setting appropriate expiration limits to minimize security risks if a token is ever exposed.
+Difference between a commit and a push: A commit records your staged changes into your local repository's history on your machine, acting as a local save point that is only stored on your computer. A push takes your local commits and uploads them to a remote repository on GitHub, making them accessible to your teammates and ensuring your remote backup is up to date. Committing is entirely offline and local, whereas pushing is an online network action communicating with a remote server.
+My repository URL: https://github.com/Visualcoder-ai/SE103-Week4
