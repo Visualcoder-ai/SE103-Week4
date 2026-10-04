@@ -1,0 +1,14 @@
+Student Name: Samson Baraka Otieno
+Name list: ["Ama", "Kofi", "Yaw"]
+Trace 1 - target "Kofi":
+1. Check "Ama": "Ama" == "Kofi" is false.
+2. Check "Kofi": "Kofi" == "Kofi" is true. Return "Found".
+Result: Found
+Trace 2 - target "Efua":
+1. Check "Ama": "Ama" == "Efua" is false.
+2. Check "Kofi": "Kofi" == "Efua" is false.
+3. Check "Yaw": "Yaw" == "Efua" is false.
+4. Loop ends. Return "Not found".
+Result: Not found
+Empty list input: []
+Empty list result: Error: list is empty

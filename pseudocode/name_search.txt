@@ -1,0 +1,20 @@
+Student Name: Samson Baraka Otieno
+Problem: Search a list of names for one target name and report whether it was found.
+Input: 
+- a list of names
+- one target name
+Output: 
+- "Found" or "Not found"
+- or an error if the list is empty
+Pseudocode:
+START
+    IF list is empty THEN
+        RETURN "Error: list is empty"
+    END IF
+    FOR EACH name IN list DO
+        IF name EQUALS target name THEN
+            RETURN "Found"
+        END IF
+    END FOR
+    RETURN "Not found"
+END

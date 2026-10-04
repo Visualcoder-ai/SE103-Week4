@@ -1,0 +1,4 @@
+Student Name: Samson Baraka Otieno
+Which phrases were too vague: Phrases like "Check them", "Find who failed", and "Show result" in the original draft lacked any precise logic, condition boundaries, or handling for edge cases.
+How I made each vague part specific: I defined an explicit failing threshold condition (score < 50), established a collection mechanism to gather failing scores into a list, and handled the edge case where every student passes.
+Why refinement matters before coding: Refining pseudocode catches logical flaws early, saving time during implementation and preventing runtime bugs.

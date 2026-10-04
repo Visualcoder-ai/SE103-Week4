@@ -1,0 +1,18 @@
+Student Name: Samson Baraka Otieno
+Problem: Brewing morning coffee using a French press.
+Input: Coffee beans, grinder, hot water, French press.
+Output: A freshly brewed cup of hot coffee.
+Edge Case Handled: If the water is not hot enough, bring it back to a boil before pouring.
+Pseudocode:
+START
+    IF water temperature < boiling THEN
+        heat water until boiling
+    END IF
+    coarsely grind the coffee beans
+    add ground coffee into the French press
+    pour hot water over the coffee grounds
+    let steep for four minutes
+    press down the plunger slowly
+    pour coffee into a mug
+END
+Why this is clear enough to follow: Every step follows a sequential timeline with explicit preconditions and clear decision checks so anyone can execute it without ambiguity.

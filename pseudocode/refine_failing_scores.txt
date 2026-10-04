@@ -1,0 +1,21 @@
+Student Name: Samson Baraka Otieno
+Problem: Find which scores failed.
+Input: a list of student scores
+Output: the failing scores, or a message if no one failed
+Failing rule: score < 50
+Pseudocode:
+START
+    SET failing_list TO empty list
+    IF input list is empty THEN
+        RETURN "No scores provided"
+    END IF
+    FOR EACH score IN input list DO
+        IF score < 50 THEN
+            ADD score TO failing_list
+        END IF
+    END FOR
+    IF failing_list is empty THEN
+        RETURN "No one failed"
+    END IF
+    RETURN failing_list
+END
