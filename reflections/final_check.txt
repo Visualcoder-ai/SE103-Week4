@@ -1,8 +1,8 @@
-Student Name: Samson Baraka Otieno
+Student Name: Samson Baraka 
 GitHub Username: Visualcoder-ai
-Repository: SE103-Week3
-Repository URL: https://github.com/Visualcoder-ai/SE103-Week4
-What a pull request asks teammates to do: A pull request asks teammates to review the code changes made on a separate branch, discuss modifications, and approve merging them into the main branch. It serves as a formal code review gateway before integration.
-Why branches and pull requests are used together: Branches provide an isolated workspace to develop features safely, while pull requests provide a structured platform to inspect, discuss, and merge those branches securely into the main codebase. Together, they ensure code quality and team synchronization.
-One thing that confused me in this project and how I solved it: Managing branch tracking references initially caused slight ambiguity when pushing new branches. I resolved this by utilizing git push -u origin <branch-name> to explicitly establish upstream tracking links between my local and remote branches.
+Repository: SE1110935852273-Week5
+Repository URL: https://github.com/Visualcoder-ai/SE1110935852273-Week5
+What I understand better about algorithms now: Breaking down problems into logical ordered steps before writing code makes implementation much easier. I now appreciate how edge cases like empty inputs can break programs if not explicitly handled upfront. Tracing algorithms mentally or on paper reveals hidden logic flaws before they turn into bugs. Writing clear pseudocode also bridges the gap between human intent and machine execution effectively. Designing modular steps ensures that every part of the program has a single, well-defined responsibility.
+How tracing changed my confidence: Tracing gave me a concrete way to verify step-by-step state changes instead of guessing whether my logic worked. Seeing variables update line by line built absolute certainty that my loops and conditions handled edge cases correctly. It shifted my mindset from hoping code works to proving that it works. This confidence translates directly into writing cleaner, more reliable production code.
+One pseudocode habit I will keep: Always writing out the explicit input, output, and empty-case handling at the very beginning of every algorithm design.
 All required files are on main: Yes
